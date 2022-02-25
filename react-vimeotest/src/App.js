@@ -1,11 +1,13 @@
 
 import './App.css';
+ 
 
 function App() {
   return (
-    <div className="App">
+    <div className="App"
+    >
       <h1>
-        Vimeo
+        Vimeo/Growth Team: Code Sample Exercise
       </h1>
     </div>
   );
