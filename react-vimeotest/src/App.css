@@ -1,0 +1,121 @@
+/*
+Styling 
+*/
+.App {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*
+First text content 
+*/
+.App .FirstText {
+  display: flex;
+}
+.App .image1 {
+  width: 700px;
+  height: 50%;
+  padding: 20px;
+  flex: 0 0 150px;
+ 
+}
+
+.App .MonContent{
+  padding-left: 90px;
+  display: inline;
+  padding: 20px;
+ }
+.App .MonContent h2 {
+  margin: 0;
+  display: inline;
+}
+
+.App .MonContent p {
+  padding: 10px 0 0;
+  font-size: 1rem;
+}
+/*
+Second text content 
+*/
+
+.App .SecondText {
+  display: flex;
+  background-color: dimgray; 
+}
+
+.App .image2{
+  width: 700px;
+  height: 50%;
+  padding: 30px;
+}
+.App .BeamsContent {
+  display: inline;
+  padding: 35px;
+  color: azure;
+}
+.App .BeamsContent p{
+  text-align: justify;
+  font-size: 1rem;
+}
+
+/*
+Third text content 
+*/
+
+
+.App .ThirdText {
+  display: flex;
+  background: linear-gradient( dimgray, #e4e0e0);
+}
+.App .image3 {
+  width: 700px;
+  height: 50%;
+  padding: 30px;
+}
+
+.App .Move2{
+  padding-left: 50px;
+  display: inline;
+  padding: 20px;
+ }
+.App .Move2 h2 {
+  margin: 0;
+  display: inline;
+  color: azure;
+}
+
+.App .Move2 p {
+  margin: 0;
+  padding: 10px 0 0;
+  text-align: justify;
+  font-size: 1rem;
+  color: azure;
+}
+
+/*
+Media Queries 
+*/
+/* @media (min-width: 600px){
+  .MonContent p{
+    font-size: 1.25rem;
+  }
+} */
+
+@media all and (max-width: 1215px) {
+  .App .FirstText{
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .App .SecondText{
+    flex-direction: column;
+    text-align: center;
+  }
+  .App .ThirdText{
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .App .FourthText{
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+}
+
